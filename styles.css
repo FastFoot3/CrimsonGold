@@ -1,0 +1,711 @@
+
+
+body 
+{
+    background-color:rgb(24, 2, 2);
+    color:white;
+    margin: 30px;
+    font-family: 'Crimson Text', serif;
+}
+input[type="radio"]:hover
+{
+    cursor: pointer;
+}
+label:hover
+{
+    cursor: pointer;
+}
+
+#loginForm
+{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 390px;
+    background-color: rgb(17, 17, 17);
+    padding: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 15px;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.login
+{
+    font-size: 40px;
+    color: rgb(173, 173, 0);
+}
+.login input
+{
+    margin-top: 5px;
+    width: 382px;
+    height: 50px;
+    padding: 7px;
+    font-size: 25px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+
+.loginSubmit
+{
+    text-align: center;
+    margin-top: 20px;
+}
+.loginSubmit input
+{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(184, 59, 59, 0.815);
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.loginSubmit input:hover
+{
+    background-color: rgba(184, 59, 59, 0.966);
+    cursor: pointer;
+}
+
+
+.password
+{
+    font-size: 40px;
+    color: rgb(173, 173, 0);
+    margin-top: 40px;
+}
+.password input
+{
+    margin-top: 5px;
+    width: 382px;
+    height: 50px;
+    padding: 7px;
+    font-size: 25px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+
+#register
+{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(173, 173, 173);
+}
+#register a
+{
+    color: rgb(190, 190, 190);
+}
+#register a:hover
+{
+    color: rgb(206, 200, 174);
+}
+#register a:active
+{
+    color: rgb(155, 75, 44);
+}
+
+#registerForm
+{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: fit-content;
+    background-color: rgb(17, 17, 17);
+    padding: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#witcherSchools
+{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(17, 17, 17);
+    padding: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 15px;
+    border-radius: 10px;
+    font-size: 24px;
+    width: fit-content;
+}
+#witcherSchools p
+{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(173, 173, 0);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.schoolsChoice
+{
+    width: 400px;
+    float: left;
+    padding: 6px;
+}
+.schoolName
+{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#avatarsRegister
+{
+    text-align: left;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(17, 17, 17);
+    padding: 25px;
+    border-style: solid;
+    border-color: black;
+    border-width: 15px;
+    border-radius: 10px;
+    font-size: 24px;
+    width: fit-content;
+}
+#avatarsRegister p
+{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(173, 173, 0);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.avatarChoice
+{
+    float: left;
+    padding: 6px;
+    text-align: center;
+}
+.avatarRegisterImg
+{
+    width: 400px;
+    height: 700px;
+    object-fit: cover;
+}
+
+#registrationComplited
+{
+    text-align: center;
+    color: rgb(173, 173, 0);
+    font-size: 70px;
+    margin-top: 300px;
+}
+#loginBack
+{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(173, 173, 173);
+}
+#loginBack a
+{
+    color: rgb(190, 190, 190);
+}
+#loginBack a:hover
+{
+    color: rgb(206, 200, 174);
+}
+#loginBack a:active
+{
+    color: rgb(155, 75, 44);
+}
+
+
+
+
+.logout
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.158);
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+}
+.logout:hover
+{
+    background-color: rgba(255, 255, 255, 0.527);
+}
+.logout:active
+{
+    border-color: rgb(173, 173, 0);
+    color: rgb(173, 173, 0);
+}
+
+.CG {
+
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: rgb(133, 25, 25);
+    text-align: center ;
+    font-size: 80px;
+}
+.INSIGHT {
+    background-color: rgb(23, 138, 5, 0.15);
+    border-color: rgb(23, 138, 5);
+    
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(23, 138, 5);
+    height: 60px;
+    width: 120px;
+    border-radius: 13px;
+    text-align: center ;
+    display:table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.RESOLVE {
+    background-color: rgb(40, 24, 139, 0.15);
+    border-color: rgb(40, 24, 139);
+    
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(40, 24, 139);
+    height: 60px;
+    width: 120px;
+    border-radius: 13px;
+    text-align: center ;
+    display:table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.PROWESS {
+    background-color: rgb(202, 98, 0, 0.15);
+    border-color: rgb(202, 98, 0);
+        
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(202, 98, 0);
+    height: 60px;
+    width: 120px;
+    border-radius: 13px;
+    text-align: center ;
+    display:table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+.Witchers {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgb(218, 218, 218);
+    font-family: "Crimson Text", serif;
+        
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(218, 218, 218);
+    height: 60px;
+    width: 170px;
+    border-radius: 6px;
+    text-align: center ;
+    display:table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+
+
+.Helth_Points {
+    background-color: rgb(200, 34, 34,0.15);
+    border-color: rgb(133, 25, 25, );
+        
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(133, 25, 25);
+    height: 60px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center ;
+    display:table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.Gold {
+    background-color: rgb(173, 173, 0,0.15);
+    border-color: rgb(173, 173, 0);
+        
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(173, 173, 0);
+    height: 60px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center ;
+    display:table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.Level {
+    background-color: rgb(0, 134, 98,0.15);
+    border-color: rgb(0, 134, 98);
+        
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(0, 134, 98);
+    height: 60px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center ;
+    display:table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.Experience {
+    background-color: rgb(162, 2, 151 ,0.15);
+    border-color: rgb(162, 2, 151);
+        
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(162, 2, 151);
+    height: 60px;
+    width: 120px;
+    border-radius: 30px;
+    text-align: center ;
+    display:table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.avatar{
+    width: 150px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgb(218, 218, 218);
+        
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(218, 218, 218);
+    margin-top: 15px;
+
+    
+    border-radius: 6px;
+    text-align: center ;
+    display:table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.front{
+
+        
+
+    color: rgb(218, 218, 218, 1);
+    font-family: "UnifrakturMaguntia", display;
+    height: 450px;
+    width: 500px;
+    border-radius: 6px;
+    text-align: center ;
+    display:table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+.front a:link
+{
+    color: white;
+    text-decoration: none;
+    
+}
+.front a:visited
+{
+    color: white;
+    text-decoration: none;
+}
+.front a:hover
+{
+    color: rgb(170, 148, 21);
+    text-decoration: none;
+}
+.front a:active
+{
+    color: red;
+    text-decoration: none;
+}
+
+.left_panel{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgb(0, 0, 0);
+        
+    
+    border-width: 1px;
+    color: rgb(0, 0, 0);
+    height: 100px;
+    
+    border-radius: 6px;
+    text-align: center ;
+    display:table-cell;
+    vertical-align:middle;
+    font-weight: bold;
+    font-size: 20px;
+}
+.town{
+    
+        
+    
+    margin-top: 15px;
+    
+    width: 500px;
+    height: 300px;
+    border-radius: 6px;
+    object-fit: cover;
+    
+}
+
+#battlefield
+{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+#left-warrior
+{
+    float: left;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 40px;
+    font-family: "Crimson Text", serif;
+    color: rgb(139, 105, 54);
+    
+}
+
+#right-warrior
+{
+    float: left;
+    text-align: center;
+    margin-right: 60px;
+    font-size: 40px;
+    font-family: "Crimson Text", serif;
+    color: rgb(139, 105, 54);
+}
+
+#fight-progres
+{
+    clear: both;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Crimson Text", serif;
+}
+
+.fighter
+{
+    width: 500px;
+    height: 714px;
+    padding: 20px;
+    object-fit: cover;
+}
+
+#return
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#return input
+{
+    font-family: "UnifrakturMaguntia", display;
+    height: 100px;
+    width: 250px;
+    font-size: 40px;
+    background-color: rgba(189, 0, 0, 0.555);
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+}
+#return input:hover
+{
+    cursor: pointer;
+    background-color: rgb(189, 0, 0);
+}
+#fightResult
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(170, 148, 21);
+}
+
+.content
+{
+    width: 50%;
+    text-align: center;
+}
+
+.content a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    float: right;
+    margin-bottom: 5px;
+    font-weight: 900;
+    
+    
+    
+    
+}
+.content a:hover
+{
+    cursor: pointer;
+    color: rgb(170, 148, 21);
+}
+.content a:active
+{
+    color: red;
+    text-decoration: none;
+}
+
+#blacksmith
+{
+    clear: both;
+    border-style: solid;
+    background-color: black;
+    font-family: "UnifrakturMaguntia", display;
+    font-size: 30px;
+    min-width: 474px;
+}
+#blacksmith input
+{
+    font-family: "UnifrakturMaguntia", display;
+    height: 100px;
+    
+    font-size: 40px;
+    background-color: rgba(189, 0, 0, 0.555);
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+}
+#blacksmith input:hover
+{
+    cursor: pointer;
+    background-color: rgb(189, 0, 0);
+}
+#blacksmith input:active
+{
+    color: rgb(170, 148, 21);
+    border-color: rgb(170, 148, 21);
+}
+
+#training
+{
+    border-style: solid;
+    background-color: black;
+    font-family: "UnifrakturMaguntia", display;
+    font-size: 30px;
+    min-width: 474px;
+}
+.skillPoints
+{
+    background-color: rgba(189, 0, 0, 0.555);
+    margin-left: 5px;
+    color: white;
+    font-family: "UnifrakturMaguntia", display;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    border-style: solid;
+    border-color: rgb(189, 0, 0);
+    
+    
+    
+}
+.Submit
+{
+    font-family: "UnifrakturMaguntia", display;
+    height: 100px;
+    
+    font-size: 40px;
+    background-color: rgba(189, 0, 0, 0.555);
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+}
+.Submit:hover
+{
+    cursor: pointer;
+    background-color: rgb(189, 0, 0);
+}
+.Submit:active
+{
+    color: rgb(170, 148, 21);
+    border-color: rgb(170, 148, 21);
+}
+
+#chooseMission
+{
+    clear: both;
+    font-family: "UnifrakturMaguntia", display;
+    font-size: 30px;
+}
+
+.missionOption
+{
+    background-color: black;
+    width: 100%;
+    border-style: solid;
+    overflow: hidden;
+}
+
+.dificulty
+{
+    float: left;
+    width: 19%;
+    text-align: center;
+    height: 100%;
+    font-family: "UnifrakturMaguntia", display;
+    font-size: 25px;
+    margin-top: auto;
+    min-width: 119px;
+    
+
+}
+
+.description
+{
+    float: left;
+    width: 76%;
+    border-left-style: solid;
+    border-left-width: 1%;
+    border-left-color: white;
+    font-size: 20px;
+    
+    min-width: 499px;
+    
+    
+}
